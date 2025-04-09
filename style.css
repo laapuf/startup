@@ -1,0 +1,582 @@
+/* installed fonts */
+
+@font-face {
+  font-family: Pretendard;
+  font-weight: 45 920;
+  font-display: swap;
+  src: url("css/fonts/PretendardVariable.ttf");
+}
+
+@font-face {
+  font-family: Wackwriting;
+  font-weight: 45 920;
+  font-display: swap;
+  src: url("css/fonts/Wackwriting1-Regular.ttf");
+}
+
+/* - */
+/*   justify-content: center; 
+  align-items: center;*/
+body {
+  margin: 0;
+  font-family: Pretendard;
+  background-color: #000;
+  color: rgb(0, 0, 0);
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#login-container {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  background-color: #111;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #333;
+  width: 240px;
+}
+
+#content button {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #111;
+}
+
+.centered {
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+  width: 100%;
+  background-color: #222;
+  border: 1px solid #555;
+  color: white;
+  border-radius: 4px;
+}
+
+
+button {
+  padding: 8px 16px;
+  margin-top: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  color: #0af;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+@keyframes flip-card {
+  0%, 100% {
+    transform: rotateX(10283deg);
+    opacity: 1;
+    -webkit-transition: all 1000000000000000s;
+  }
+  10% {
+    transform: rotateY(1098deg);
+    opacity: 1;
+  }
+  20% {
+    transform: rotateX(849deg);
+    opacity: 1;
+  }
+  30% {
+    transform: rotateZ(120deg);
+    opacity: 1;
+  }
+  40% {
+    transform: rotateX(809328deg);
+    opacity: 1;
+  }
+  50% {
+    transform: rotateY(91374deg);
+    opacity: 1;
+  }
+  60% {
+    transform: rotateX(612310deg);
+    opacity: 1;
+  }
+  70% {
+    transform: rotateY(3019230deg);
+    opacity: 1;
+  }
+  80% {
+    transform: rotateZ(192930deg);
+    opacity: 1;
+  }
+  90% {
+    transform: rotateY(694200deg);
+    opacity: 1;
+  } 
+}
+
+@keyframes justflips {
+  0%, 100% {
+    transform: rotateX(0deg);
+    opacity: 1;
+    -webkit-transition: all 1s;
+  }
+  10% {
+    transform: rotateX(360deg);
+    opacity: 1;
+  }
+}
+
+
+
+/* installed fonts */
+
+@font-face {
+  font-family: Pretendard;
+  font-weight: 45 920;
+  font-display: swap;
+  src: url("css/fonts/PretendardVariable.ttf");
+}
+
+@font-face {
+  font-family: Wackwriting;
+  font-weight: 45 920;
+  font-display: swap;
+  src: url("css/fonts/Wackwriting1-Regular.ttf");
+}
+
+/* - */
+
+
+ul, ol {
+padding-left: 0;
+list-style-type: none;
+}
+.inline-flex {
+display: inline-flex;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Pretendard;
+  box-sizing: border-box;
+}
+
+html {
+
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+body {
+   background-image: url();
+  font-family: Pretendard;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 140.5ch;
+  margin: 0 1.3%;
+}
+
+
+
+
+.pfp {
+height: 19%;
+width: 19%;
+border-radius: 10%;
+margin-left: 1rem;
+float: right;
+margin: 10px;
+position: relative
+
+}
+
+@keyframes flip-card {
+0%, 100% {
+  transform: rotateX(10283deg);
+  opacity: 1;
+  -webkit-transition: all 1000000000000000s;
+}
+10% {
+  transform: rotateY(1098deg);
+  opacity: 1;
+}
+20% {
+  transform: rotateX(849deg);
+  opacity: 1;
+}
+30% {
+  transform: rotateZ(120deg);
+  opacity: 1;
+}
+40% {
+  transform: rotateX(809328deg);
+  opacity: 1;
+}
+50% {
+  transform: rotateY(91374deg);
+  opacity: 1;
+}
+60% {
+  transform: rotateX(612310deg);
+  opacity: 1;
+}
+70% {
+  transform: rotateY(3019230deg);
+  opacity: 1;
+}
+80% {
+  transform: rotateZ(192930deg);
+  opacity: 1;
+}
+90% {
+  transform: rotateY(694200deg);
+  opacity: 1;
+} 
+}
+
+@keyframes justflips {
+0%, 100% {
+  transform: rotateX(0deg);
+  opacity: 1;
+  -webkit-transition: all 1s;
+}
+10% {
+  transform: rotateX(360deg);
+  opacity: 1;
+}
+}
+
+
+nav {
+display: flex;
+flex-direction: row;
+gap: 1.3ch;
+padding: 0.5em 0;
+border-bottom: 1px solid #ffffff31;
+border-top: 1px solid #ffffff00;
+margin-bottom: 1em;
+margin-top: 0.1em;
+}
+
+nav a {
+padding: 0.1em;
+border-bottom: none;
+color: #ffffff;
+}
+
+
+nav a:hover, nav a:focus, nav a:active {
+animation: justflips 10s ease-in-out infinite;
+animation-play-state: running;
+}
+
+
+
+.icon { 
+display:inline-block;
+vertical-align: middle;
+margin-right: 10px;
+}
+.icon:hover, nav a:focus, nav a:active {
+animation: flip-card 3s ease-in-out infinite;
+animation-play-state: running;
+transform: translate3d(0, 0, 0);
+}
+
+
+
+/*nav a:first-child::before {
+color: #ffffff;
+content: "";
+border-inline-start: 4px solid #ffffff;
+margin-inline-end: 1ch;
+border-radius: 6px;
+} */
+
+
+
+
+
+
+
+/**/
+
+.container {
+  max-width: 1200
+px;
+  margin: 0 auto;
+  
+  width: 100%;
+
+  padding: 10px 0;
+}
+
+/**/
+
+
+
+
+
+
+
+
+/* - */
+a {
+color: inherit;
+}
+
+a img {
+border: none;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+line-height: 1.25;
+margin: 1.5rem 0 1rem;
+}
+
+
+
+
+#header{
+  width: 100%;
+  height: 100vh;
+  background-image: url(theimages/person.png);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+} 
+
+
+h1 {
+  font-family: Pretendard;
+  font-weight: 900;
+  font-size: 2em;
+  font-feature-settings: "lnum" 1;
+  font-variation-settings: "opsz" 35;
+  line-height: 0;
+  margin: 1.5rem 0 0rem;
+  display: inline-block;
+}
+
+h2 { 
+  font-family: Pretendard;
+  font-weight: 900;
+  font-size: 1.3em;
+  font-feature-settings: "lnum" 1;
+  font-variation-settings: "opsz" 35;
+  line-height: 1;
+  margin: 
+  0.4rem 0 1rem;
+}
+
+.subtitle {
+font-weight: 200;
+font-size: 1rem;
+width: calc(85% - 150px);
+}
+
+footer {
+height: 100%;
+font-weight: 200;
+font-size: 0.67rem;
+text-align: end;
+opacity: 50%;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+flex: 1;
+margin: 2%;
+}
+
+a {
+color: #ffffff;
+text-decoration: none;
+border-bottom: 1px solid #ffffff00;
+
+transition-property: color border-color;
+transition-duration: 0.2s;
+}
+
+.cool-link {
+color: #9cb5ff;
+transition: color 0.1s, background-color 0.1s;
+background-color: #2563eb33;
+text-decoration: none;
+border-radius: 6px;
+padding: 0.16em 0.3em;
+margin: -0.2em 0;
+line-height: 1.7;
+white-space: nowrap;
+}
+
+.cool-link:hover {
+color: #6596ff;
+background-color: #3b82f633;
+}
+
+/*.subtle-link {
+color: currentColor;
+transition: color 0.1s, background-color 0.1s;
+text-decoration: none;
+border-radius: 4px;
+padding: 0.02em 0.2em 0.14em;
+margin: -0.02em -0.2em -0.14em;
+}
+
+.subtle-link:hover {
+color: currentColor;
+background-color: #3b82f633;
+}*/
+
+
+
+
+
+
+
+
+#stars {
+position: fixed;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+z-index: -1
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* photogallery */
+
+.photo-gallery {
+/* Enable multi-column layout */
+column-count: 4; /* Change the number of columns as needed */
+column-gap: 10px; /* Adjust the gap between columns */
+}
+
+.photo {
+margin-bottom: 20px; /* Add some space between images */
+break-inside: avoid; /* Prevent images from breaking across columns */
+}
+
+.photo img {
+width: 100%;
+display: block;
+border-radius: 5px;
+}
+
+/*
+.container{
+max-width: 1224px;
+width: 90%;
+margin: auto;
+padding: 40px 0;
+}
+.photo-gallery{
+display: flex;
+gap: 20px;
+}
+.column{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.photo img {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+
+  object-fit: cover;
+} 
+*/
+
+
+
+
+
+.random-image {
+  position: fixed;
+  bottom: -10px;
+  right: -25px;
+/*    border: 1px solid #ccc;*/
+/*   border-radius: 5px; */
+  padding: 1%;
+  max-width: 30%; 
+  max-height: 100%; 
+  overflow: hidden; /* hide overflowing content */
+}
+
+.random-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* maintain aspect ratio while covering container */
+}
+
+
+
